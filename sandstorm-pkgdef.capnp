@@ -11,7 +11,7 @@ const pkgdef :Spk.PackageDefinition = (
   # The package definition. Note that the spk tool looks specifically for the
   # "pkgdef" constant.
 
-  id = "8e4wpgf664gqek74uy6cmq3kyw1xu0ztfj8ktwwa9yxv90ew24z0",
+  id = "w304h9n5rjx1pzfa8e4guheue5mq3dkwv63aajy1rscupw6e38mh",
   # The app ID is actually the public key used to sign the app package.
   # All packages with the same ID are versions of the same app.
   #
@@ -23,14 +23,14 @@ const pkgdef :Spk.PackageDefinition = (
     # This manifest is included in your app package to tell Sandstorm
     # about your app.
 
-    appTitle = (defaultText = "Raw API Example"),
+    appTitle = (defaultText = "ApiHost test app"),
 
     appVersion = 0,  # Increment this for every release.
     appMarketingVersion = (defaultText = "0.0.0"),
 
     actions = [
       # Define your "new document" handlers here.
-      ( title = (defaultText = "New Raw API Example Instance"),
+      ( title = (defaultText = "New ApiHost test"),
         nounPhrase = (defaultText = "instance"),
         command = .myCommand
         # The command to run when starting for the first time. (".myCommand"
